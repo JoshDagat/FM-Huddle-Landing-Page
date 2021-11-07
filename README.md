@@ -27,14 +27,17 @@ Users should be able to:
 
 ### Screenshot
 
+Desktop View
+![](assets/img/desktop-1440.jpeg)
 
-![Desktop View](assets/img/desktop-1440.jpeg)
+Tablet View
+![](assets/img/tablet-view.jpeg)
 
-![Tablet View](assets/img/tablet-view.jpeg)
+Mobile View
+![](assets/img/mobile-view.jpeg)
 
-![Mobile View](assets/img/mobile-view.jpeg)
-
-![Active State](assets/img/active.jpeg)
+Active State
+![](assets/img/active.jpeg)
 
 ### Links
 
