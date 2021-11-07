@@ -33,7 +33,7 @@ Desktop View
 Tablet View
 ![](assets/img/tablet-view.jpeg)
 
-Mobile View
+Mobile View  
 ![](assets/img/mobile-view.jpeg)
 
 Active State
