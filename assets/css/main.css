@@ -35,6 +35,7 @@ body{
     background: url(../img/bg-mobile.svg);
     background-repeat: no-repeat;
     background-position: center top;
+    background-size: contain;
     background-color: #684BB1;
     max-width: 375px;
 }
@@ -47,8 +48,11 @@ body{
     color: #fff;
 }
 
+.attribution a:hover{
+    color: #E880E8;
+}
+
 .main {
-    min-height: 100vh;
     padding: 2.25rem;
 }
 
@@ -106,6 +110,11 @@ body{
     display: inline-block;
 }
 
+.cta-register span:hover{
+    background-color: #E880E8;
+    color: #fff;
+}
+
 footer {
     display: flex;
     justify-content: center;
@@ -135,9 +144,93 @@ footer {
     text-decoration: none;
 }
 
+.social-media-links a:hover{
+    border: 1px solid #ff52c1;
+}
+.social-media-links a:hover i {
+    color: #FF52C1;
+}
 
+@media screen and (min-width: 500px) {
+    body {
+        max-width: 546px ;
+    }
+}
+@media screen  and (min-width: 576px) {
+    body{
+        max-width: 546px;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    body{
+        max-width: 738px;
+    }
+}
+
+@media screen and (min-width: 850px) {
+    body{
+        max-width: 850px;
+        background: url(../img/bg-desktop.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-color: #684BB1;
+    }
+    .main-columns {
+        flex-direction: row;
+        gap: 4em;
+    }
+    .img-col {
+        width: 70%;
+        margin-bottom: 0;
+        flex: 2 1 auto;
+    }
+
+    .details-col{
+        flex: 1 3 auto;
+        align-self: flex-start;
+        text-align: start;
+    }
+
+    .details-col h2 {
+        font-size: calc(18px + 16 * ((100vw - 375px) / 1065));
+    }
+
+    .details-col p {
+        font-size: calc(14px + 2 * ((100vw - 375px) / 1065));
+    }
+
+    .cta-register {
+        text-align: center;
+    }
+
+    .cta-register span {
+        width: 100%;
+        max-width: 200px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    body{
+        max-width: 962px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    body{
+        max-width: 1400px;
+    }
+
+    .social-media-links {
+        align-self: flex-end;
+        margin-right: 4em;
+    }
+}
 
 @media screen and (min-width: 1400px) {
+    body{
+        max-width: 1440px;
+    }
     .logo {
         max-width: 200px;
     }
